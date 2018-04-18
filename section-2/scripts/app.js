@@ -1,15 +1,17 @@
 $( document ).ready(function() {
-  $( ".person-1" ).effect( "shake" );
+  $( ".person-1" ).effect( "shake", "slow");
 });
 
 $( document ).ready(function() {
-  $( ".person-2" ).effect("easeOutBounce");
+  $( ".person-2" ).effect( "easeOutBounce" );
 });
 
 $( document ).ready(function() {
-  $( ".person-3" ).effect( "pulsate" );
+  $( ".person-3" ).effect( "pulsate", "slow" );
 });
 
+
+//cursor
 $(document).bind('mousemove', function(e){
   $('.cursor').css({
     top: e.pageY - $(".cursor").height()/2, // just minus by half the height

@@ -5,7 +5,7 @@
 
 .cursor {
  position: absolute;
- left: 0;
+ right: 0;
  top: 0;
  width: 5%;
  height: 10%;
@@ -39,12 +39,20 @@
 
 .person-4{
       position: absolute;
+      height: 6%;
+      width: 6%;
+      border-radius: 50%;
+      background: #77b300;
+      top: 50%;
+      right: 40%}
+
+.person-5{
+      position: absolute;
       height: 4%;
       width: 4%;
-      background: #77b300;
+      background: #0076ff;
       top: 60%;
       right: 90%}
-
 /* DON'T DELETE THIS */
 
 html {
