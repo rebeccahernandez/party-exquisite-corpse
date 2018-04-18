@@ -1,3 +1,9 @@
+.container{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
 #phone04 {
   background: black;
   width: 150px;

@@ -37,6 +37,14 @@
       top: 80%;
       right: 50%}
 
+.person-4{
+      position: absolute;
+      height: 4%;
+      width: 4%;
+      background: #77b300;
+      top: 60%;
+      right: 90%}
+
 /* DON'T DELETE THIS */
 
 html {
