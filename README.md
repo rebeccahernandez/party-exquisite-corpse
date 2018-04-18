@@ -1,1 +1,1 @@
-# party-exquisite-corpse
+# ccs-exquisite-corpse
