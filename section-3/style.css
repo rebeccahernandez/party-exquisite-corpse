@@ -1,0 +1,47 @@
+body {
+  background: pink;
+}
+
+#box {
+  position: fixed;
+  top: 0;
+  left: 50;
+  width: 400px;
+  height: 100%;
+  background: green;
+}
+
+/* DON'T DELETE THIS */
+
+html {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+*,*:before,*:after {
+  box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+/* Clear Float */
+
+.cf:before,.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
