@@ -56,7 +56,7 @@ position: absolute;
 }
 
 .button01 {
- background: grey;
+ background: lightgrey;
  width: 20%;
  height: 40%;
  border-radius: 30%;
@@ -67,7 +67,7 @@ position: absolute;
 }
 
 .button02 {
-background: grey;
+background: lightgrey;
 width: 20%;
 height: 40%;
 border-radius: 30%;
@@ -79,11 +79,11 @@ float:left;
 
 
 .background {
-background: #77b300;
+background: #99994d;
 width: 100%;
 height: 80%;
 position: absolute;
-top: 200px;
+bottom: 0;
 }
 
 /* orange */
@@ -204,6 +204,46 @@ left: 880px;
   position: absolute;
   top: 350px;
   left: 1050px;
+}
+
+.shape12 {
+  background: #cccc00;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  bottom: -700px;
+  left: 100px;
+}
+
+.shape13 {
+background: #608000;
+border-radius: 50%;
+width: 20px;
+height: 25px;
+position: absolute;
+bottom: -600px;
+left: 300px;
+}
+
+.shape14 {
+background: #e68a00;
+border-radius: 50%;
+width: 10px;
+height: 13px;
+position: absolute;
+bottom: -550px;
+left: 250px;
+}
+
+.sun {
+  background: yellow;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  bottom: -70px;
+  left: 300px;
 }
 
 /* DON'T DELETE THIS */
