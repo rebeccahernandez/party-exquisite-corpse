@@ -242,8 +242,9 @@ left: 250px;
   width: 150px;
   height: 150px;
   position: absolute;
-  bottom: -70px;
+  bottom: 0px;
   left: 300px;
+  overflow: hidden;
 }
 
 /* DON'T DELETE THIS */
