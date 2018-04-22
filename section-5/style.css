@@ -242,7 +242,7 @@ left: 250px;
   width: 150px;
   height: 150px;
   position: absolute;
-  bottom: 0px;
+  bottom: -60px;
   left: 300px;
   overflow: hidden;
 }
@@ -262,7 +262,11 @@ html {
 }
 
 body {
+<<<<<<< HEAD
   margin: 0;
+=======
+  margin: 0
+>>>>>>> 3160af867e8fdebae580028cc5141a0df72188d9
   overflow: hidden;
 }
 
