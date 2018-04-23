@@ -1,11 +1,12 @@
 .cursor {
-position: absolute;
-left: 0;
-top: 0;
-width: 5%;
-height: 10%;
-background: yellow;
-}
+ position: absolute;
+ right: 0;
+ top: 0;
+ width: 5%;
+ height: 10%;
+ background: yellow;
+ cursor: none;
+ }
 
 /* DON'T DELETE THIS */
 
