@@ -65,6 +65,7 @@ form.chat .message{
   display:block;
   width:98%;
   padding:0.5%;
+	left:20%;
 }
 
 form.chat .message p{
@@ -93,6 +94,7 @@ form.chat .myMessage {
   float:right;
   clear:both;
   border-bottom-right-radius: 20px 0px\9;
+	right:-22px;
 }
 
 form.chat .myMessage:before {
@@ -167,14 +169,16 @@ form.chat input{
   height:10%;
   outline:0;
 	z-index:2;
-  left:10%;
+  left:20%;
 }
 
 form.chat input[type='text']{
   width:73%;
-  left:10%;
+  left:2%;
+	top:90%;
   float:left;
 	z-index:2;
+	position:absolute;
 }
 
 form.chat input[type='submit']{
@@ -185,6 +189,10 @@ form.chat input[type='submit']{
   text-align:right;
   float:right;
 	z-index:2;
+	top:90%;
+	left:75%;
+	position:absolute;
+	overflow:hidden;
 }
 
   form.chat .myMessage,form.chat .fromThem{
@@ -231,6 +239,129 @@ form.chat input[type='submit']{
     width: 100%;
   }
 }
+
+/* .chat-bubble{
+  height: 72px;
+  width: 140px;
+  background: #e5e5e5;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius:40%;
+	float:left;
+	z-index:-2;
+ }
+
+   &:before{
+    content: '';
+    height: 72px;
+    width: 72px;
+    left: -36px;
+    position: absolute;
+    display: block;
+    background: #e5e5e5;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  &:after{
+    content: '';
+    height: 72px;
+    width: 72px;
+    right: -36px;
+    position: absolute;
+    display: block;
+    background: #e5e5e5;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  .tail{
+    height: 25px;
+    width: 25px;
+    background: #e5e5e5;
+    position: absolute;
+    left: -5px;
+    bottom: 4px;
+    border-radius: 50%;
+  }
+
+  .loading{
+    position: absolute;
+    z-index: 10;
+    width: 167px;
+    left:28px;
+    top: 27px;
+   }
+
+   .dot{
+      height: 17px;
+      width: 17px;
+      border-radius: 50%;
+      background: #c1c1c1;
+      display: block;
+      float: left;
+      margin: 0 0 0 8px;}
+
+
+      .one{
+        -webkit-animation: cycleOne 1s ease-in-out infinite;
+        -webkit-animation-direction: normal;
+      }
+      .two{
+        -webkit-animation: cycleTwo 1s ease-in-out infinite;
+        -webkit-animation-direction: normal;
+      }
+      .three{
+        -webkit-animation: cycleThree 1s ease-in-out infinite;
+        -webkit-animation-direction: normal;
+      }
+
+
+@-webkit-keyframes cycleOne{
+  0%{
+    background: rgba(150, 150, 150, 0.4);
+  }
+  33.333%{
+    background: rgba(150, 150, 150, 1);
+  }
+  66.6667%{
+    background: rgba(150, 150, 150, 0.4);
+  }
+  100%{
+    background: rgba(150, 150, 150, 0.4);
+  }
+}
+
+@-webkit-keyframes cycleTwo{
+  0%{
+    background: rgba(150, 150, 150, 0.4);
+  }
+  33.333%{
+    background: rgba(150, 150, 150, 0.4);
+  }
+  66.6667%{
+    background: rgba(150, 150, 150, 1);
+  }
+  100%{
+    background: rgba(150, 150, 150, 0.4);
+  }
+}
+
+@-webkit-keyframes cycleThree{
+  0%{
+    background: rgba(150, 150, 150, 0.4);
+  }
+  33.333%{
+    background: rgba(150, 150, 150, 0.4);
+  }
+  66.6667%{
+    background: rgba(150, 150, 150, 0.4);
+  }
+  100%{
+    background: rgba(150, 150, 150, 1);
+  }
+}*/
 
 /* DEMO */
 
