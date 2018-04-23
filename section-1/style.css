@@ -52,6 +52,7 @@ form.chat .messages{
   height:90%;
   width:100%;
   padding:2% 3%;
+	left:30%;
 }
 
 form.chat ::-webkit-scrollbar {width: 3px; height:1px;transition:all .5s;z-index:10;}
@@ -94,7 +95,7 @@ form.chat .myMessage {
   float:right;
   clear:both;
   border-bottom-right-radius: 20px 0px\9;
-	right:-22px;
+	right:65%;
 }
 
 form.chat .myMessage:before {
@@ -173,11 +174,11 @@ form.chat input{
 }
 
 form.chat input[type='text']{
-  width:73%;
-  left:2%;
+  width:25%;
+  left:31.75%;
 	top:90%;
   float:left;
-	z-index:2;
+	z-index:4;
 	position:absolute;
 }
 
@@ -190,7 +191,7 @@ form.chat input[type='submit']{
   float:right;
 	z-index:2;
 	top:90%;
-	left:75%;
+	left:44%;
 	position:absolute;
 	overflow:hidden;
 }
