@@ -69,6 +69,10 @@ $(document).ready(function() {
   responsiveChatPush('.chat', 'rebecca', 'me', 'yes!! i cant wait to see u!! omg its been like 20 years');
   responsiveChatPush('.chat', 'rebecca', 'me', 'are u here already? where are u?');
 
+  /*$("input[type="submit"]").click(function(){
+    $("chat-bubble").show();
+});*/
+
   /* DEMO */
   if (parent == top) {
     $("a.article").show();
