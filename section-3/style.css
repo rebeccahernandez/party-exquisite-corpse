@@ -1,32 +1,10 @@
-body {
-  background: pink;
-}
-
-#box {
-  position: fixed;
-  top: 0;
-  left: 50;
-  width: 400px;
-  height: 100%;
-  background: green;
-}
-
-/* DON'T DELETE THIS */
-
-html {
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-}
-
-*,*:before,*:after {
-  box-sizing: inherit;
-  -moz-box-sizing: inherit;
-  -webkit-box-sizing: inherit;
-}
-
-body {
-  margin: 0;
+.cursor {
+position: absolute;
+left: 0;
+top: 0;
+width: 5%;
+height: 10%;
+background: yellow;
 }
 
 /* Clear Float */
