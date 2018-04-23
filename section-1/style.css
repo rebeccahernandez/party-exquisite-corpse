@@ -167,10 +167,12 @@ form.chat input{
   height:10%;
   outline:0;
 	z-index:2;
+  left:10%;
 }
 
 form.chat input[type='text']{
   width:73%;
+  left:10%;
   float:left;
 	z-index:2;
 }
