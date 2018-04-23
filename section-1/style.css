@@ -1,3 +1,23 @@
+.grey-left {
+	position:absolute;
+	float:left;
+	background-color: #f2f2f2;
+	height:100%;
+	width:30%;
+	z-index:3px;
+	left:0%;
+}
+
+.grey-right {
+	position:absolute;
+	float:right;
+	background-color: #f2f2f2;
+	height:100%;
+	width:31.5%;
+	z-index:5px;
+	right:0;
+}
+
 .time {
 	height:10%;
 	font-family:"helvetica";
