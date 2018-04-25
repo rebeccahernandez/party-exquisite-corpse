@@ -5,8 +5,6 @@
 
 .cursor {
  position: absolute;
- right: 0;
- top: 0;
  width: 5%;
  height: 10%;
  background: yellow;
@@ -19,7 +17,14 @@
   width: 12%;
   background: red;
   top: 30%;
-  right: 20%}
+  right: 20%
+}
+
+a:hover{
+  background-color: yellow
+
+}
+
 
 .person-2{
     position: absolute;

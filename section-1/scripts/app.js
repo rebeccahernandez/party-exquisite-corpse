@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   function responsiveChat(element) {
-      $(element).html('<form class="chat"><span></span><div class="messages"></div><input type="text" placeholder="iMessage"><input type="submit" value="Send"></form>');
+      $(element).html('<form class="chat"><span></span><div class="messages"></div><input type="text" placeholder="are u here already? where are u?"><input type="submit" value="Send"></form>');
 
       function showLatestMessage() {
           $(element).find('.messages').scrollTop($(element).find('.messages').height());
@@ -67,7 +67,7 @@ $(document).ready(function() {
   /* Let's push some dummy data */
   responsiveChatPush('.chat', '0', 'you', 'hey are you coming tonight?');
   responsiveChatPush('.chat', 'rebecca', 'me', 'yes!! i cant wait to see u!! omg its been like 20 years');
-  responsiveChatPush('.chat', 'rebecca', 'me', 'are u here already? where are u?');
+  /*responsiveChatPush('.chat', 'rebecca', 'me', 'are u here already? where are u?');*/
 
   /*$("input[type="submit"]").click(function(){
     $("chat-bubble").show();

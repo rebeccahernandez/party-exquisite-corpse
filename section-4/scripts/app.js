@@ -3,21 +3,20 @@ $(document).ready(function() {
   $('.ball').draggable({
   });
 
-//bounce when click anywhere
-$(document).ready(function() {
-    $( ".ball" ).effect("bounce", { times:4, distance:200 }, 400);
-  });
-
+ //bounce when click anywhere
+$(document).click(function() {
+     $( ".ball" ).effect("bounce", { times:4, distance:200 }, 400);
+   });
 
 });
 
-
-$(document).ready(function(){
-
-      setInterval(function() {
-        $( ".ball" ).effect( "bounce")
-        }, 1000);
-});
+//
+// $(document).ready(function(){
+//
+//       setInterval(function() {
+//         $( ".ball" ).effect( "bounce")
+//         }, 1000);
+// });
 
 
 //cursor
@@ -28,3 +27,12 @@ $(document).bind('mousemove', function(e){
   });
 
 });
+
+//droppable
+$(document).ready(function() {
+  $('.cup').droppable({
+  activeClass: "ui-state-highlight"
+  });
+
+
+  });
