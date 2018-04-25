@@ -8,7 +8,6 @@ $(document).click(function() {
      $( ".ball" ).effect("bounce", { times:4, distance:200 }, 400);
    });
 
-
 });
 
 //
@@ -30,9 +29,10 @@ $(document).bind('mousemove', function(e){
 });
 
 //droppable
-$(document).ready(function(){
-  $( ".cup" ).droppable({
-    accept: ".ball"
+$(document).ready(function() {
+  $('.cup').droppable({
+  activeClass: "ui-state-highlight"
   });
 
-});
+
+  });

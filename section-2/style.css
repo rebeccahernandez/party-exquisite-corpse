@@ -17,7 +17,14 @@
   width: 12%;
   background: red;
   top: 30%;
-  right: 20%}
+  right: 20%
+}
+
+a:hover{
+  background-color: yellow
+
+}
+
 
 .person-2{
     position: absolute;

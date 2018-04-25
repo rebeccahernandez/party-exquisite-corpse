@@ -49,3 +49,12 @@ $(document).bind('mousemove', function(e){
   });
 
 });
+
+// //color changing
+// $(document).ready(function(){
+//     $("div").hover(function(){
+//         $(".p").css("background-color", "yellow");
+//         }, function(){
+//         $(this).css("background-color", "pink");
+//     });
+// });
