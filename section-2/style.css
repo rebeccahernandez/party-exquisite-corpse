@@ -16,15 +16,13 @@
   height: 8%;
   width: 12%;
   background: red;
-  top: 30%;
-  right: 20%
+  top: 40%;
+  right: 15%
 }
 
-a:hover{
+/* a:hover{
   background-color: yellow
-
-}
-
+} */
 
 .person-2{
     position: absolute;
@@ -32,7 +30,7 @@ a:hover{
     width: 5%;
     border-radius: 50%;
     background: pink;
-    top: 10%;
+    top: 30%;
     right: 60%}
 
 .person-3{
@@ -59,6 +57,23 @@ a:hover{
       background: #0076ff;
       top: 60%;
       right: 90%}
+
+.person-6{
+          position: absolute;
+          height: 8%;
+          width: 6%;
+          background: #0076ff;
+          top: 0%;
+          right: 31%}
+
+.person-7{
+          position: absolute;
+          height: 15%;
+          width: 4%;
+          background: orange;
+          top: 0%;
+          left: 30%}
+
 /* DON'T DELETE THIS */
 
 html {
