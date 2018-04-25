@@ -1,20 +1,3 @@
-// $( document ).ready(function() {
-//   $( ".person-1" ).effect( "shake", "slow");
-// }, 1000);
-//
-// $( document ).ready(function() {
-//   $( ".person-2" ).effect( "shake" );
-// });
-//
-// $( document ).ready(function() {
-//   $( ".person-3" ).effect( "pulsate", "slow" );
-// });
-//
-// $(document).setInterval(function() {
-//     $(".person-4").effect("bounce",2000)
-// }, 1000);
-
-
 $(document).ready(function(){
 
       setInterval(function() {
@@ -37,7 +20,13 @@ $(document).ready(function(){
         $( ".person-5" ).effect( "pulsate", 20)
       }, 500);
 
+      setInterval(function() {
+        $('.person-7').effect('shake')
+      }, 1000);
 
+      setInterval(function() {
+        $( ".person-6" ).effect( "pulsate", 50)
+      }, 700);
 });
 
 
@@ -50,11 +39,8 @@ $(document).bind('mousemove', function(e){
 
 });
 
-// //color changing
-// $(document).ready(function(){
-//     $("div").hover(function(){
-//         $(".p").css("background-color", "yellow");
-//         }, function(){
-//         $(this).css("background-color", "pink");
-//     });
-// });
+$(document).hover(function(){
+        $( ".person-1" ).effect( "background-color", "pink" )
+        });
+
+      
