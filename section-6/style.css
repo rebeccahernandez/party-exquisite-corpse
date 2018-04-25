@@ -1,28 +1,5 @@
-.box01 {
-position: absolute;
-top: 30%;
-left: 51%;
-max-height: 45px;
-z-index: -1;
-}
-
-.time {
-position: absolute;
-top: 10%;
-left: 46%;
-max-height: 13px;
-}
-
-.back {
-position: absolute;
-width: 100%;
-height: 100%;
-z-index: -2;
-}
-
-
-.screen:hover {
-  animation: shake 3s;
+.container01:hover {
+  animation: shake 1s;
   animation-iteration-count: infinite;
 }
 
@@ -41,8 +18,37 @@ z-index: -2;
 }
 
 
+.box01 {
+position: absolute;
+top: 15%;
+left: 55%;
+max-height: 45px;
+z-index: -1;
+}
 
+.time {
+position: absolute;
+top: 5%;
+left: 47%;
+max-height: 13px;
+}
 
+.back {
+position: absolute;
+width: 100%;
+height: 100%;
+z-index: -3;
+background: lightgrey;
+}
+
+.frame {
+  position: absolute;
+  background: white;
+  height: 100%;
+  width: 40%;
+  left: 30%;
+  z-index: -2;
+}
 
 /*
 <<<<<<< HEAD

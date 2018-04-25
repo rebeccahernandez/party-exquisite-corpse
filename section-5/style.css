@@ -37,6 +37,15 @@
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
+.toilet {
+  width: 100%;
+  height: 1100px;
+  border-radius: 50%;
+  border: 8px solid lightgrey;
+  position: absolute;
+  bottom: -60%;
+}
+
 
 .one {
   font-family: helvetica;
@@ -255,16 +264,6 @@ bottom: -550px;
 left: 250px;
 }
 
-.sun {
-  background: yellow;
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  position: absolute;
-  bottom: -70px;
-  left: 300px;
-  overflow: hidden;
-}
 
 /* DON'T DELETE THIS */
 

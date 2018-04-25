@@ -1,3 +1,5 @@
+/*
+
 $(document).ready(function() {
 
 $("#phone").rotate({angle:25});
