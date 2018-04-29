@@ -17,6 +17,15 @@
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
+.time {
+	height:10%;
+	font-family:"helvetica";
+	color:#8E8E93;
+	font-size:8pt;
+	text-align:center;
+	padding-top:20px;
+}
+
 .box01 {
 position: absolute;
 top: 15%;
@@ -47,7 +56,8 @@ background: #f2f2f2;
   width: 40%;
   left: 30%;
   z-index: -2;
-}
+
+
 
 /* DON'T DELETE THIS */
 
